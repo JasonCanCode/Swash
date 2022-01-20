@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		224BAC0D224F41F200316608 /* Swash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224BAC03224F41F100316608 /* Swash.framework */; };
 		224BAC14224F41F200316608 /* Swash.h in Headers */ = {isa = PBXBuildFile; fileRef = 224BAC06224F41F100316608 /* Swash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		224BAC24224F442200316608 /* DefaultSizes+tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC21224F442200316608 /* DefaultSizes+tvOS.swift */; };
-		224BAC26224F442200316608 /* DefaultSizes+watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC22224F442200316608 /* DefaultSizes+watchOS.swift */; };
-		224BAC28224F442200316608 /* DefaultSizes+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC23224F442200316608 /* DefaultSizes+iOS.swift */; };
 		224BAC2D224F443700316608 /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2A224F443700316608 /* SystemFont.swift */; };
 		224BAC2F224F443700316608 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2B224F443700316608 /* Utils.swift */; };
 		224BAC31224F443700316608 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2C224F443700316608 /* Font.swift */; };
@@ -22,18 +19,12 @@
 		224BAC59224FF37C00316608 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2C224F443700316608 /* Font.swift */; };
 		224BAC5A224FF37C00316608 /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2A224F443700316608 /* SystemFont.swift */; };
 		224BAC5B224FF37C00316608 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2B224F443700316608 /* Utils.swift */; };
-		224BAC5C224FF37C00316608 /* DefaultSizes+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC23224F442200316608 /* DefaultSizes+iOS.swift */; };
-		224BAC5D224FF37C00316608 /* DefaultSizes+tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC21224F442200316608 /* DefaultSizes+tvOS.swift */; };
-		224BAC5E224FF37C00316608 /* DefaultSizes+watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC22224F442200316608 /* DefaultSizes+watchOS.swift */; };
 		224BAC5F224FF4B500316608 /* TestFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC3B224F459500316608 /* TestFonts.swift */; };
 		224BAC60224FF4B500316608 /* SystemFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC35224F44AE00316608 /* SystemFontTests.swift */; };
 		224BAC61224FF4B500316608 /* CustomFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC36224F44AE00316608 /* CustomFontTests.swift */; };
 		224BAC6F224FF64C00316608 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2C224F443700316608 /* Font.swift */; };
 		224BAC70224FF64C00316608 /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2A224F443700316608 /* SystemFont.swift */; };
 		224BAC71224FF64C00316608 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2B224F443700316608 /* Utils.swift */; };
-		224BAC72224FF64C00316608 /* DefaultSizes+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC23224F442200316608 /* DefaultSizes+iOS.swift */; };
-		224BAC73224FF64C00316608 /* DefaultSizes+tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC21224F442200316608 /* DefaultSizes+tvOS.swift */; };
-		224BAC74224FF64C00316608 /* DefaultSizes+watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC22224F442200316608 /* DefaultSizes+watchOS.swift */; };
 		224BAC75224FF65300316608 /* Swash.h in Headers */ = {isa = PBXBuildFile; fileRef = 224BAC06224F41F100316608 /* Swash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		224BAC76224FF65400316608 /* Swash.h in Headers */ = {isa = PBXBuildFile; fileRef = 224BAC06224F41F100316608 /* Swash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22886BA8242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */; };
@@ -63,9 +54,6 @@
 		224BAC06224F41F100316608 /* Swash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swash.h; sourceTree = "<group>"; };
 		224BAC07224F41F100316608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		224BAC0C224F41F200316608 /* Swash iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swash iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		224BAC21224F442200316608 /* DefaultSizes+tvOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DefaultSizes+tvOS.swift"; sourceTree = "<group>"; };
-		224BAC22224F442200316608 /* DefaultSizes+watchOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DefaultSizes+watchOS.swift"; sourceTree = "<group>"; };
-		224BAC23224F442200316608 /* DefaultSizes+iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DefaultSizes+iOS.swift"; sourceTree = "<group>"; };
 		224BAC2A224F443700316608 /* SystemFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemFont.swift; sourceTree = "<group>"; };
 		224BAC2B224F443700316608 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		224BAC2C224F443700316608 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
@@ -154,16 +142,6 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		224BAC20224F43F200316608 /* Default Sizes */ = {
-			isa = PBXGroup;
-			children = (
-				224BAC23224F442200316608 /* DefaultSizes+iOS.swift */,
-				224BAC21224F442200316608 /* DefaultSizes+tvOS.swift */,
-				224BAC22224F442200316608 /* DefaultSizes+watchOS.swift */,
-			);
-			path = "Default Sizes";
-			sourceTree = "<group>";
-		};
 		224BAC33224F444B00316608 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,7 +180,6 @@
 				224BAC2A224F443700316608 /* SystemFont.swift */,
 				22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */,
 				224BAC2B224F443700316608 /* Utils.swift */,
-				224BAC20224F43F200316608 /* Default Sizes */,
 				224BAC33224F444B00316608 /* Supporting Files */,
 			);
 			path = Swash;
@@ -422,10 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				224BAC2F224F443700316608 /* Utils.swift in Sources */,
-				224BAC28224F442200316608 /* DefaultSizes+iOS.swift in Sources */,
 				224BAC31224F443700316608 /* Font.swift in Sources */,
-				224BAC26224F442200316608 /* DefaultSizes+watchOS.swift in Sources */,
-				224BAC24224F442200316608 /* DefaultSizes+tvOS.swift in Sources */,
 				224BAC2D224F443700316608 /* SystemFont.swift in Sources */,
 				22886BA8242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */,
 			);
@@ -445,12 +419,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224BAC5E224FF37C00316608 /* DefaultSizes+watchOS.swift in Sources */,
 				224BAC59224FF37C00316608 /* Font.swift in Sources */,
 				224BAC5A224FF37C00316608 /* SystemFont.swift in Sources */,
-				224BAC5C224FF37C00316608 /* DefaultSizes+iOS.swift in Sources */,
 				224BAC5B224FF37C00316608 /* Utils.swift in Sources */,
-				224BAC5D224FF37C00316608 /* DefaultSizes+tvOS.swift in Sources */,
 				22886BAA242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,12 +440,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224BAC74224FF64C00316608 /* DefaultSizes+watchOS.swift in Sources */,
 				224BAC6F224FF64C00316608 /* Font.swift in Sources */,
 				224BAC70224FF64C00316608 /* SystemFont.swift in Sources */,
-				224BAC72224FF64C00316608 /* DefaultSizes+iOS.swift in Sources */,
 				224BAC71224FF64C00316608 /* Utils.swift in Sources */,
-				224BAC73224FF64C00316608 /* DefaultSizes+tvOS.swift in Sources */,
 				22886BAC242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -834,7 +802,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
 		};
@@ -862,7 +830,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};

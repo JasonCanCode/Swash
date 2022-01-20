@@ -3,7 +3,7 @@ import UIKit
 /**
  A type that represents the system font and can generate a `UIFont` object.
  */
-public enum SystemFont {
+public enum SystemFont: Font {
     /**
      Represents the "preferred" system font.
      
@@ -69,6 +69,9 @@ public enum SystemFont {
         case .italic: return .traits([.traitItalic])
         }
     }
+}
+
+public extension SystemFont {
     
     /**
      Creates a system font object of the specified size.
@@ -79,7 +82,7 @@ public enum SystemFont {
      
      - Returns: A system font object of the specified size.
      */
-    public func of(size: CGFloat) -> UIFont {
+    func of(size: CGFloat) -> UIFont {
         guard let style = style else {
             return .systemFont(ofSize: size)
         }
@@ -110,7 +113,7 @@ public enum SystemFont {
      
      - Returns: A system font object corresponding to the given parameters.
      */
-    public func of(textStyle: UIFont.TextStyle, maxSize: CGFloat? = nil) -> UIFont {
+    func of(textStyle: UIFont.TextStyle, maxSize: CGFloat?, defaultSize: CGFloat?) -> UIFont {
         if self == .preferred && maxSize == nil {
             return .preferredFont(forTextStyle: textStyle)
         }
@@ -124,4 +127,11 @@ public enum SystemFont {
         }
     }
     
+    static func preferred(forStyle textStyle: UIFont.TextStyle) -> Self {
+        return .preferred
+    }
+    
+    static func preferredSize(forStyle textStyle: UIFont.TextStyle) -> CGFloat {
+        return UIFont.preferredFont(forTextStyle: textStyle).pointSize
+    }
 }
